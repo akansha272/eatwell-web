@@ -20,8 +20,10 @@ app.use(function(req,res){
     res.status(404).render('404');
 });
 
+
 app.use(function(error, req, res, next){
     res.status(500).render('500')
 });
+
 
 app.listen(3000);

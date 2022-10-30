@@ -18,5 +18,5 @@ function storeRestaurants(storableRestaurants){
 
 module.exports = {
     getStoredRestaurants : getStoredRestaurants,
-    storedRestaurants: storeRestaurants
+    storeRestaurants: storeRestaurants
 }
